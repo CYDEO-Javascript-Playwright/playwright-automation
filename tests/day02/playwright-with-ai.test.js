@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
 
 test("Youtube test", async ({ page }) => {
   await page.goto("https://www.youtube.com/");
@@ -16,6 +16,12 @@ test("Youtube test", async ({ page }) => {
   await searchBox.press("Enter");
 
   await page.waitForTimeout(3000);
+
+  const firstVideo = await page.locator("//a[@id='thumbnail' and contains(@href, '/watch?v=_ZvnD73m40o')]");
+
+  await firstVideo.click();
+
+  await page.waitForTimeout(10000);
 
 
 });
