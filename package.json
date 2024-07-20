@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "tests": "playwright test", 
-    "test:specific": "playwright test ./tests/**/playwright-intro.test.js",
+    "test:specific": "playwright test ./tests/day02/playwright-with-ai.test.js",
     "report": "playwright show-report"
   },
   "keywords": [],
