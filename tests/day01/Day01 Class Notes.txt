@@ -1,0 +1,19 @@
+PlayWright Automation Day01:
+
+Topics:
+	Introduction to Playwright
+	Environment Setup
+	@playwright/test package
+	Working with browsers (Headless & Headed)
+	Interacting with WebElements
+
+	Custom AI Prompt templates for better productivity
+
+
+
+Next Class:
+	Assertions
+	More Locators
+	More Fixtures
+	More configurations
+	Prompt Engineering for Automation
