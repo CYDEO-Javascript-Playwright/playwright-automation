@@ -1,8 +1,9 @@
 import { test } from "@playwright/test";
 
+
 test("Libraray Login", async ({ page }) => {
   // go to to https://library2.cydeo.com/
-  await page.goto("https://library2.cydeo.com/");
+  await page.goto("");
 
   // create locator variable named usernameInput
   const usernameInput = await page.locator("//input[@id='inputEmail']");
@@ -17,15 +18,15 @@ test("Libraray Login", async ({ page }) => {
   await page.waitForTimeout(2000);
 
   // enter username and password
-  await usernameInput.fill("librarian10@library");
+  await usernameInput.fill("");
 
   await page.waitForTimeout(2000);
 
-  await passwordInput.fill("libraryUser");
+  await passwordInput.fill("");
 
   // click on signin button
   await signinButton.click();
 
   await page.waitForTimeout(2000);
-  
+
 });
