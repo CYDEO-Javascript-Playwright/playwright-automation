@@ -4,14 +4,14 @@ PlayWright Automation Day02:
 	locator object methods
 	Test groups
 	Hooks
-	Assertions (Maybe)
+
 
 
 Next class:
+	Assertions
 	iframes
 	pop-ups
 	alerts
-	webforms
 	more AI
 
 
