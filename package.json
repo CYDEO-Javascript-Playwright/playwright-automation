@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tests": "playwright test", 
+    "tests": "playwright test",
     "test:specific": "playwright test ./tests/day02/playwright-with-ai.test.js",
     "report": "playwright show-report"
   },
@@ -14,5 +14,8 @@
   "devDependencies": {
     "@playwright/test": "^1.45.1",
     "@types/node": "^20.14.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
