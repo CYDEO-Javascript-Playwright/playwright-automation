@@ -1,0 +1,18 @@
+PlayWright Automation Day03:
+    assertions
+    iframes
+    Alerts
+    Features & Scenarios of Libraray Application
+    
+
+
+
+Next Class:
+    Drag & Drop, double click, right click etc..
+    Scrolling s
+    Web Tables
+    Web Based Authentication
+    File upload & downloads
+    More AI
+
+
