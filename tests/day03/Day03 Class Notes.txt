@@ -9,7 +9,7 @@ PlayWright Automation Day03:
 
 Next Class:
     Drag & Drop, double click, right click etc..
-    Scrolling s
+    Scrollings
     Web Tables
     Web Based Authentication
     File upload & downloads
