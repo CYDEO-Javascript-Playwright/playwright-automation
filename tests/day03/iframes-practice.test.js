@@ -8,15 +8,15 @@ test.describe("Test Group", () => {
   });
 
   // Test 1
-  test("Test 1 description", async ({ page }) => {});
+  test("Locate the iframe by id", async ({ page }) => {});
 
   // Test 2
-  test("Test 2 description", async ({ page }) => {});
+  test("Locate the iframe by name", async ({ page }) => {});
 
   // Test 3
-  test("Test 3 description", async ({ page }) => {});
+  test("Locate the iframe busing CSS", async ({ page }) => {});
 
   // Test 4
-  test("Test 4 description", async ({ page }) => {});
-  
+  test("Locate the iframe busing Xpath", async ({ page }) => {});
+
 });
