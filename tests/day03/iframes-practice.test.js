@@ -14,9 +14,9 @@ test.describe("Test Group", () => {
   test("Locate the iframe by name", async ({ page }) => {});
 
   // Test 3
-  test("Locate the iframe busing CSS", async ({ page }) => {});
+  test("Locate the iframe using CSS", async ({ page }) => {});
 
   // Test 4
-  test("Locate the iframe busing Xpath", async ({ page }) => {});
+  test("Locate the iframe using Xpath", async ({ page }) => {});
 
 });
