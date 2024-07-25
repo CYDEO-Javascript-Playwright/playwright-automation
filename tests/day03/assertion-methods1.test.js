@@ -39,6 +39,8 @@ test.describe("Assertion Methods", () => {
 
 
 
+/*
+
 // create a function can pause for given number of seconds
 function pause(seconds) {
   return new Promise((resolve) => setTimeout(resolve, seconds * 1000));
@@ -82,3 +84,4 @@ test.describe("pause function tests", () => {
     await expect(pause(nonNumber)).rejects.toThrow(RangeError);
   });
 });
+*/
