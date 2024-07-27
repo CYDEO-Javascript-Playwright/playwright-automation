@@ -4,12 +4,13 @@ Playwright Day04
     Web Based Authentication
     File upload & downloads
     Tags
+    Jenkins Setup
 
 
 
 Next Class:
     Multi-window Handlings
-    Context Fixture
+    Context & browser Fixture
     Jenkins:
         Creating jobs
         Publishing Report
@@ -22,7 +23,7 @@ Next Saturday' Class:
 Next Monday' Class:
     Playwright Cucumber review (JS version)
 
-Optional Class:
+Additional Class (Optional):
     Next Next Saturday:
         TypeScript Programming
         Playwright with TypeScript
