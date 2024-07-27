@@ -1,6 +1,5 @@
-
 Playwright Day04
-    Mouse Actions
+    Mouse Actions: click, right click, double click, hover, drag and drop, scroll
     Web Tables
     Web Based Authentication
     File upload & downloads
@@ -23,8 +22,8 @@ Next Saturday' Class:
 Next Monday' Class:
     Playwright Cucumber review (JS version)
 
-Optional:
-    Next Next Saturday' Class:
+Optional Class:
+    Next Next Saturday:
         TypeScript Programming
         Playwright with TypeScript
         Playwright Cucumber (TS version)
