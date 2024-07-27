@@ -5,7 +5,7 @@ dotenv.config("./.env");
 
 // come back at 12:25 PM US EST
 
-test("Libraray Login", async ({ page }) => {
+test("@smoke Libraray Login", async ({ page }) => {
   // go to to https://library2.cydeo.com/
   await page.goto(process.env.LIBRARY_URL);
 

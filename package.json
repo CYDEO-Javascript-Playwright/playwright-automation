@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tests": "playwright test",
-    "test:specific": "playwright test ./tests/**/assertion-practice1.test.js",
-    "report": "playwright show-report"
+    "tests": "npx playwright test",
+    "test:specific": "npx playwright test ./tests/**/assertion-practice1.test.js",
+    "test:tag": "npx playwright test --grep @smoke",
+    
+    "report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
