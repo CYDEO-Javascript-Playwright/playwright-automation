@@ -38,11 +38,14 @@ test.describe("Test Group", async () => {
   test("Mouse hover test", async ({ page }) => {
     await page.click("text='Hovers'");
     await page.waitForTimeout(2000);
-    await page.hover("(//img[@src='/img/avatar-blank.jpg' and @alt='User Avatar'])[2]");
+    await page.hover(
+      "(//img[@src='/img/avatar-blank.jpg' and @alt='User Avatar'])[2]"
+    );
     await expect(page.locator("text='name: user2'")).toBeVisible();
-    expect(await page.locator("text='name: user2'").innerText()).toBe("name: user2");
+    expect(await page.locator("text='name: user2'").innerText()).toBe(
+      "name: user2"
+    );
   });
-
 
   test("hover to multiple test", async ({ page }) => {
     await page.click("text='Hovers'");
@@ -61,8 +64,30 @@ test.describe("Test Group", async () => {
   });
 
   test("Drag and Drop test", async ({ page }) => {
+    await page.click("text='Drag and Drop'");
 
+    await page.waitForTimeout(2000);
 
+    // await page.dragAndDrop("//div[@id='column-a']", "//div[@id='column-b']");
+            // simulating mouse action: drag and drop
+
+    const source_element = page.locator("//div[@id='column-a']");
+    const target_element = page.locator("//div[@id='column-b']");
+    await source_element.dragTo(target_element);
+        // drag and drop is performed on web elements directly
+
+    const dragableElemnts = page.locator("//div[@class='column' and @draggable='true']");
+    let texts = ['B', 'A'];
+
+    for (let i = 0; i < await dragableElemnts.count(); i++) {
+      const text = await dragableElemnts.nth(i).innerText();
+      console.log(text);
+     expect(text).toBe(texts[i]);
+    }
+
+  });
+
+  test("mouse wheel scrolling test", async ({ page }) => {
   });
 
 });
