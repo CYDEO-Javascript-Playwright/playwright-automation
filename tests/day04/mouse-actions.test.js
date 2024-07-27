@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 //create a test group with 3 tests in it
-test.describe("Test Group", async () => {
+test.describe("Mouse Actions", async () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://practice.cydeo.com/");
   });
