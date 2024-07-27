@@ -1,0 +1,25 @@
+Cucumber
+Session-3
+---------------
+tags
+hooks
+
+By using tagging feature we can execute/ignore specific test scenarios from a feature file.
+
+hooks
+-------
+
+Tests
+--------------
+Setup  --> @Before
+	Add new customer
+tearDown  -->@After
+
+Setup
+	Edit customer
+tearDown
+
+Setup
+	Delete customer
+tearDownn
+
