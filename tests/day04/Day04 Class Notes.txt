@@ -1,0 +1,31 @@
+
+Playwright Day04
+    Mouse Actions
+    Web Tables
+    Web Based Authentication
+    File upload & downloads
+    Tags
+
+
+
+Next Class:
+    Multi-window Handlings
+    Context Fixture
+    Jenkins:
+        Creating jobs
+        Publishing Report
+        .env setup
+
+
+Next Saturday' Class:
+    Project Implementation: 2 ~ 3 hours recording classes
+
+Next Monday' Class:
+    Playwright Cucumber review (JS version)
+
+Optional:
+    Next Next Saturday' Class:
+        TypeScript Programming
+        Playwright with TypeScript
+        Playwright Cucumber (TS version)
+
