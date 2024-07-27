@@ -88,6 +88,22 @@ test.describe("Test Group", async () => {
   });
 
   test("mouse wheel scrolling test", async ({ page }) => {
+
+    await page.waitForTimeout(2000);
+    await page.mouse.wheel(0, 300);
+
+    await page.waitForTimeout(2000);
+    await page.mouse.wheel(0, -300);
+
   });
+
+  test("different scrolling test", async ({ page }) => {
+
+    await page.waitForTimeout(2000);
+    const inputLink = page.locator("text='Inputs'");
+    await inputLink.scrollIntoViewIfNeeded();
+
+  });
+
 
 });
